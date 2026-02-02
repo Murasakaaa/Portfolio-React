@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-schabo-x: "Schabo X Condensed", sans-serif;
+  --font-schabo: "Schabo Condensed", sans-serif;
+  --font-archivo: "Archivo", sans-serif;
+}
+@font-face {
+  font-family: "Schabo X Condensed";
+  src: url("./assets/fonts/SCHABO-XCondensed.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Archivo";
+  src: url("./assets/fonts/Archivo-VariableFont_wdth,wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Schabo Condensed";
+  src: url("./assets/fonts/SCHABO-Condensed.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
