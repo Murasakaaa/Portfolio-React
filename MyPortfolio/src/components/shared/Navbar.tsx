@@ -3,7 +3,7 @@ import { IconMenu2 } from "@tabler/icons-react";
 
 export default function Navbar() {
   return (
-    <header className="fixed top-0 left-0 right-0 flex justify-between items-center p-3 mx-4 z-6 bg-white">
+    <header className="fixed top-0 left-0 right-0 flex justify-between items-center p-3 z-6 border-b-2 bg-white">
       <p className="text-2xl font-archivo ml-3 select-none">Nolann Maunier.</p>
 
       {/* div pour le menu et son bouton*/}
