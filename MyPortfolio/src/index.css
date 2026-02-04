@@ -28,3 +28,7 @@
   font-style: normal;
   font-display: swap;
 }
+
+.MuiTypography-root {
+  font-family: var(--font-archivo) !important;
+}

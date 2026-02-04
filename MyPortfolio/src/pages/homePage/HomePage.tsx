@@ -85,5 +85,5 @@ const gotoLinkedin = () => {
 };
 
 const getResume = () => {
-  window.open("path/to/your.pdf", "_blank");
+  window.open("docs/CV.pdf", "_blank");
 };
