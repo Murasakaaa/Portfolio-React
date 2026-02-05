@@ -6,7 +6,7 @@ import { IconBrandLinkedinFilled } from "@tabler/icons-react";
 export const HeroSection = () => {
   return (
     <section className="mt-5">
-      <div className="grid grid-cols-2 auto-rows-auto gap-2">
+      <div className="grid grid-cols-2 auto-rows-auto gap-2 max-sm:mt-0">
         {/*1st cell with short intro*/}
         <div className="font-archivo text-rich_black text-[1.875rem] leading-10 max-sm:text-[1rem] max-sm:col-span-2 max-sm:leading-tight">
           Étudiant en BUT Informatique, je recherche une alternance ou un stage
@@ -16,12 +16,12 @@ export const HeroSection = () => {
         </div>
 
         {/*2nd cell with download button*/}
-        <div className="row-start-2 font-archivo flex items-center mt-30">
+        <div className="row-start-2 font-archivo flex items-center mt-30 max-sm:mt-3">
           <div
-            className="border-2 rounded-[0.313rem] w-fit flex items-center gap-1 px-1 tracking-widest cursor-pointer bg-white hover:bg-black transition-colors duration-300 group"
+            className="border-2 rounded-[0.313rem] w-fit flex items-center gap-1 px-1 tracking-widest cursor-pointer bg-white hover:bg-black transition-colors duration-300 group max-sm:tracking-normal"
             onClick={getResume}
           >
-            <p className="font-archivo text-[3rem] text-black group-hover:text-white transition-colors duration-200">
+            <p className="font-archivo text-[3rem] text-black group-hover:text-white transition-colors duration-200 max-sm:text-3xl">
               MON CV
             </p>
             <IconDownload
@@ -33,20 +33,20 @@ export const HeroSection = () => {
         </div>
 
         {/*3rd cell with icons buttons*/}
-        <div className="row-start-2 flex justify-end gap-2 px-3 py-2 mt-30">
+        <div className="row-start-2 flex justify-end gap-2 px-3 py-2 mt-30 max-sm:mt-0">
           <div className="border-2 rounded-[0.313rem] cursor-pointer bg-white hover:bg-black transition-colors duration-300 group">
             <IconBrandGithubFilled
-              size={76}
+              size="1em"
               stroke={1.5}
-              className="text-black group-hover:text-white transition-colors duration-200"
+              className="text-black text-[76px] group-hover:text-white transition-colors duration-200 max-sm:text-[52px]"
               onClick={gotoGithub}
             />
           </div>
           <div className="border-2 rounded-[0.313rem] cursor-pointer bg-white hover:bg-black transition-colors duration-300 group">
             <IconBrandLinkedinFilled
-              size={76}
+              size="1em"
               stroke={1.5}
-              className="text-black group-hover:text-white transition-colors duration-200"
+              className="text-black text-[76px] group-hover:text-white transition-colors duration-200 max-sm:text-[52px]"
               onClick={gotoLinkedin}
             />
           </div>
@@ -55,7 +55,7 @@ export const HeroSection = () => {
         {/*4th cell with big name*/}
         <div
           className="col-span-2 row-start-3
-            font-schabo-x text-[36.063rem] leading-60 mx-auto select-none mt-43"
+            font-schabo-x text-[36.5rem] leading-60 mx-auto select-none mt-43 max-sm:text-[15rem] max-sm:leading-49 max-sm:mt-5"
         >
           <p>NOLANN MAUNIER</p>
         </div>
