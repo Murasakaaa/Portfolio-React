@@ -51,6 +51,7 @@ const SkillsList = [
 export const SkillsSection = () => {
   return (
     <section style={{ width: "100%" }}>
+      <h2 className="text-7xl font-schabo">Mes compétences métier</h2>
       <Box sx={{ width: "100%", py: 4 }}>
         <Grid
           container
@@ -79,7 +80,7 @@ export const SkillsSection = () => {
         </Grid>
       </Box>
       <div className="flex justify-center">
-          <p className="font-bold font-archivo text-4xl">Cliquez sur une des cartes pour en savoir plus.</p>
+          <p className="font-bold font-archivo text-2xl">Cliquez sur une des cartes pour en savoir plus.</p>
       </div>
     </section>
   );
