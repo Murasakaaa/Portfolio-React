@@ -79,9 +79,6 @@ export const SkillsSection = () => {
           ))}
         </Grid>
       </Box>
-      <div className="flex justify-center">
-          <p className="font-bold font-archivo text-2xl">Cliquez sur une des cartes pour en savoir plus.</p>
-      </div>
     </section>
   );
 };

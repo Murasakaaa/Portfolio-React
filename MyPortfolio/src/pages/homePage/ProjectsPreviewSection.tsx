@@ -1,44 +1,25 @@
+import { Box, Grid } from "@mui/material";
 import ProjPreviewCard from "../../components/projectPreviewCard";
-
-
+import projects_preview from "../../data/projects_previews.json";
 
 export const ProjectsPreviewSection = () => {
-
-  const projects = [
-    {
-      id: 1,
-      title: "Projet 1",
-      image: "",
-      desc: "Description du projet 1",
-    },
-    {
-      id: 2,
-      title: "Projet 2",
-      image: "",
-      desc: "Description du projet 2",
-    },
-    {
-      id: 3,
-      title: "Projet 3",
-      image: "",
-      desc: "Description du projet 3",
-    },
-  ]
-
-  return ( 
-  <section style={{ width: "100%" }}>
-    <h2 className="text-7xl font-schabo">Aperçu de mes projets</h2>
-    <div className="flex gap-6 mt-10 justify-center align-items-center">
-      {projects.map((project) => (
-        <ProjPreviewCard
-          key={project.id}
-          img={project.image}
-          name={project.title}
-          desc={project.desc}
-          pLink={`/projects/`} // TODO: mettre le lien vers la page du projet
-        />
-      ))}
-    </div>
- </section> 
-);
-}
+  return (
+    <section className="w-full">
+      <h2 className="text-7xl font-schabo">Aperçu de mes projets</h2>
+      <Box sx={{ width: "100%", py: 4 }}>
+        <Grid container spacing={3} sx={{ width: "100%", margin: 0 }}>
+          {projects_preview.map((project) => (
+            <Grid key={project.id} size={{ xs: 12, sm: 6, md: 4 }}>
+              <ProjPreviewCard
+                img={project.image}
+                name={project.title}
+                desc={project.desc}
+                path={project.path}
+              />
+            </Grid>
+          ))}
+        </Grid>
+      </Box>
+    </section>
+  );
+};

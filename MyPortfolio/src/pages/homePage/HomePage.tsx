@@ -10,6 +10,7 @@ export default function HomePage() {
       <SkillsSection />
       <hr className="w-full border-t-2 border-black" />
       <ProjectsPreviewSection />
+      <hr className="w-full border-t-2 border-black" />
     </main>
   );
 }

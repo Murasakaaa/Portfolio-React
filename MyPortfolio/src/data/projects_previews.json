@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Jeu du Blackjack en Python",
+    "path": "blackjack",
+    "image": "/projects_illu/projects_cards/bj_card.jpg",
+    "desc": "Jeu de Blackjack simplifié en Python avec la programmation orientée objet."
+  },
+  {
+    "id": 2,
+    "title": "Projet Yam's",
+    "path": "yams",
+    "image": "/projects_illu/projects_cards/yams_card.jpg",
+    "desc": "Jeu de Yahtzee en Java jouable en ligne de commande, avec une IA et un mode multijoueur."
+  },
+  {
+    "id": 3,
+    "title": "Projet SeniorChat",
+    "path": "seniorchat",
+    "image": "/projects_illu/projects_cards/s_chat_card.png",
+    "desc": "Plateforme de messagerie pour seniors en EHPAD avec agenda et gestion de profil."
+  }
+]

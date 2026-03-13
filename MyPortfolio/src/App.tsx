@@ -5,7 +5,7 @@ import "./index.css";
 import HomePage from "./pages/homePage/HomePage";
 import AcademicBackground from "./pages/academicBackgroundPage/AcademicBackground";
 import Projects from "./pages/projectsPage/Projects";
-
+import Contact from "./pages/contactPage/Contact";
 
 function App() {
   return (
@@ -15,8 +15,13 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/formations" element={<AcademicBackground />} />
+          <Route path="/contact" element={<Contact />} />
+
           <Route path="/projets" element={<Projects />} />
-          <Route path="/contact" element={<Projects />} />
+          <Route path="/projets/blackjack" element={""} />
+          <Route path="/projets/yams" element={""} />
+          <Route path="/projets/seniorchat" element={""} />
+          <Route path="/projets/unesco" element={""} />
         </Routes>
         <Footer />
       </div>
