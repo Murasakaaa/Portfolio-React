@@ -86,9 +86,9 @@ export default function Navbar() {
   return (
     <>
       <header className="fixed top-0 left-0 right-0 flex justify-between items-center p-3 z-50 border-b-2 bg-white max-sm:relative">
-        <p className="text-2xl font-archivo ml-3 select-none">
+        <Link to="/" className="text-2xl font-archivo ml-3 select-none">
           Nolann Maunier.
-        </p>
+        </Link>
 
         {/* div pour le menu et son bouton*/}
         <div className="relative m-0 xl:mr-10">
