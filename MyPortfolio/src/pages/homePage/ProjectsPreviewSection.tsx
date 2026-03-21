@@ -1,6 +1,8 @@
 import { Box, Grid } from "@mui/material";
 import ProjPreviewCard from "../../components/projectPreviewCard";
 import projects_preview from "../../data/projects_previews.json";
+import { IconFolderShare } from "@tabler/icons-react";
+import { Link } from "react-router-dom";
 
 export const ProjectsPreviewSection = () => {
   return (
@@ -20,6 +22,21 @@ export const ProjectsPreviewSection = () => {
           ))}
         </Grid>
       </Box>
+      <div className="font-archivo flex justify-center">
+        <Link
+          to="/projets"
+          className="border-2 rounded-[0.313rem] w-fit flex items-center gap-1 px-2 tracking-widest cursor-pointer bg-white hover:bg-black transition-colors duration-300 group max-sm:tracking-normal"
+        >
+          <p className="font-archivo text-[3rem] text-black group-hover:text-white transition-colors duration-200 max-sm:text-3xl">
+            Voir tous mes projets
+          </p>
+          <IconFolderShare
+            size={48}
+            stroke={1.5}
+            className="text-black group-hover:text-white transition-colors duration-200"
+          />
+        </Link>
+      </div>
     </section>
   );
 };

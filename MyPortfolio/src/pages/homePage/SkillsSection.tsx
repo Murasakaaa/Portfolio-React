@@ -15,36 +15,42 @@ const SkillsList = [
     icon: <IconCode size={64} />,
     title: "Réaliser",
     desc: "Concevoir, coder, tester et intégrer des solutions informatiques pour répondre aux besoins des clients.",
+    pathname: "realiser",
   },
   {
     id: 2,
     icon: <IconBolt size={64} />,
     title: "Optimiser",
     desc: "Proposer des applications informatiques performantes en analysant le temps d'exécution, la précision et la consommation de ressources.",
+    pathname: "optimiser",
   },
   {
     id: 3,
     icon: <IconUsers size={64} />,
     title: "Collaborer",
     desc: "Proposer des applications informatiques performantes en analysant le temps d'exécution, la précision et la consommation de ressources.",
+    pathname: "collaborer",
   },
   {
     id: 4,
     icon: <IconTool size={64} />,
     title: "Administrer",
     desc: "Installer, configurer et maintenir en conditions opérationnelles les infrastructures, services et réseaux d'une organisation.",
+    pathname: "administrer",
   },
   {
     id: 5,
     icon: <IconDatabaseCog size={64} />,
     title: "Gérer",
     desc: "Concevoir et exploiter les données de l'entreprise pour permettre un pilotage efficace de l'activité.",
+    pathname: "gerer",
   },
   {
     id: 6,
     icon: <IconClipboardText size={64} />,
     title: "Conduire",
     desc: "Organiser et piloter un projet informatique en utilisant des méthodes classiques ou agiles pour satisfaire les utilisateurs.",
+    pathname: "conduire",
   },
 ];
 
@@ -74,6 +80,7 @@ export const SkillsSection = () => {
                 icon={skill.icon}
                 title={skill.title}
                 desc={skill.desc}
+                pathname={skill.pathname}
               />
             </Grid>
           ))}

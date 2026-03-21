@@ -17,7 +17,7 @@ export default function ProjPreviewCard({
   return (
     <Link
       to={"/projets/" + path}
-      className="flex group flex-col box-border border-2 border-black px-10 py-3 h-full hover:outline-2 hover:outline-black transition-all duration-50"
+      className="flex group flex-col justify-between box-border border-2 border-black rounded-[0.313rem] px-10 py-3 h-full hover:outline-2 hover:outline-black transition-all duration-50"
     >
       <img src={img} alt="illustration du projet" />
 

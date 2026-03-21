@@ -22,6 +22,13 @@ function App() {
           <Route path="/projets/yams" element={""} />
           <Route path="/projets/seniorchat" element={""} />
           <Route path="/projets/unesco" element={""} />
+
+          <Route path="/Réaliser" element={""} />
+          <Route path="/Optimiser" element={""} />
+          <Route path="/Collaborer" element={""} />
+          <Route path="/Administrer" element={""} />
+          <Route path="/Gérer" element={""} />
+          <Route path="/Conduire" element={""} />
         </Routes>
         <Footer />
       </div>
