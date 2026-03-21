@@ -1,6 +1,7 @@
 import { HeroSection } from "./HeroSection";
 import { ProjectsPreviewSection } from "./ProjectsPreviewSection";
 import { SkillsSection } from "./SkillsSection";
+import { ContactSection } from "./ContactSection";
 
 export default function HomePage() {
   return (
@@ -11,6 +12,7 @@ export default function HomePage() {
       <hr className="w-full border-t-2 border-black" />
       <ProjectsPreviewSection />
       <hr className="w-full border-t-2 border-black" />
+      <ContactSection />
     </main>
   );
 }
