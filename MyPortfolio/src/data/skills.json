@@ -1,0 +1,62 @@
+{
+  "realiser": {
+    "title": "Réaliser",
+    "description": "Concevoir, coder, tester et intégrer des solutions informatiques pour répondre aux besoins des clients.",
+    "skills": [
+      "Développement frontend",
+      "Développement backend",
+      "Tests unitaires",
+      "Intégration continue"
+    ]
+  },
+  "optimiser": {
+    "title": "Optimiser",
+    "description": "Proposer des applications informatiques performantes en analysant le temps d'exécution, la précision et la consommation de ressources.",
+    "skills": [
+      "Analyse de performance",
+      "Optimisation d'algorithmes",
+      "Gestion de la mémoire",
+      "Profiling d'applications"
+    ]
+  },
+  "collaborer": {
+    "title": "Collaborer",
+    "description": "Travailler efficacement en équipe pour réaliser des projets informatiques complexes.",
+    "skills": [
+      "Travail en équipe",
+      "Communication",
+      "Partage de connaissance",
+      "Gestion des conflits"
+    ]
+  },
+  "administrer": {
+    "title": "Administrer",
+    "description": "Installer, configurer et maintenir en conditions opérationnelles les infrastructures, services et réseaux d'une organisation.",
+    "skills": [
+      "Administration système",
+      "Configuration réseau",
+      "Gestion des utilisateurs",
+      "Maintenance infrastructure"
+    ]
+  },
+  "gerer": {
+    "title": "Gérer",
+    "description": "Concevoir et exploiter les données de l'entreprise pour permettre un pilotage efficace de l'activité.",
+    "skills": [
+      "Gestion de base de données",
+      "Modélisation de données",
+      "Requêtes SQL",
+      "Data analytics"
+    ]
+  },
+  "conduire": {
+    "title": "Conduire",
+    "description": "Organiser et piloter un projet informatique en utilisant des méthodes classiques ou agiles pour satisfaire les utilisateurs.",
+    "skills": [
+      "Gestion de projet",
+      "Méthodologie Agile",
+      "Planification",
+      "Suivi de tâches"
+    ]
+  }
+}

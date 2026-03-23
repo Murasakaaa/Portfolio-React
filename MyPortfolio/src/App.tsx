@@ -10,6 +10,8 @@ import Blackjack from "./pages/projectsPage/projects/Blackjack_project";
 import SeniorChat from "./pages/projectsPage/projects/SeniorChat";
 import Yams from "./pages/projectsPage/projects/Yams";
 import Unesco from "./pages/projectsPage/projects/Unesco";
+import SkillPage from "./pages/skillsPage/Skillpage";
+import skillsData from "./data/skills.json";
 
 // Composant séparé car useLocation doit être DANS BrowserRouter
 function Layout() {
@@ -37,12 +39,12 @@ function Layout() {
         <Route path="/projets/seniorchat" element={<SeniorChat />} />
         <Route path="/projets/unesco" element={<Unesco />} />
 
-        <Route path="/realiser" element={""} />
-        <Route path="/optimiser" element={""} />
-        <Route path="/collaborer" element={""} />
-        <Route path="/administrer" element={""} />
-        <Route path="/gerer" element={""} />
-        <Route path="/conduire" element={""} />
+        <Route path="/realiser" element={<SkillPage skillData={skillsData.realiser} />} />
+        <Route path="/optimiser" element={<SkillPage skillData={skillsData.optimiser} />} />
+        <Route path="/collaborer" element={<SkillPage skillData={skillsData.collaborer} />} />
+        <Route path="/administrer" element={<SkillPage skillData={skillsData.administrer} />} />
+        <Route path="/gerer" element={<SkillPage skillData={skillsData.gerer} />} />
+        <Route path="/conduire" element={<SkillPage skillData={skillsData.conduire} />} />
       </Routes>
       {showNavbar && <Footer />}
     </div>
