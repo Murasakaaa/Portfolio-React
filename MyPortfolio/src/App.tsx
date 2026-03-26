@@ -24,6 +24,7 @@ function Layout() {
     "/projets/unesco",
   ];
 
+  // Permet de ne pas afficher la Navbar sur certaines pages
   const showNavbar = !hideNavbarOn.includes(location.pathname);
 
   return (

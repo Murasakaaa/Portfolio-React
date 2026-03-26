@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
+import Tag from "../../components/shared/tags";
 
 export default function Projects() {
   return (
-    <main className="font-archivo flex flex-col xl:mx-30 mt-20 mx-10 gap-10 max-sm:gap-5 max-sm:mt-10">
+    <main className="font-archivo flex flex-col xl:mx-30 mt-20 mx-10 gap-0 max-sm:gap-5 max-sm:mt-10 max-2xl:gap-0">
       <div>
         <h1 className="font-schabo text-9xl select-none p-0 m-0 max-sm:text-7xl">
           PROJETS
@@ -37,14 +38,7 @@ export default function Projects() {
 
             {/* tags */}
             <div className="flex flex-wrap justify-start mt-5 font-archivo gap-2 select-none">
-              <span className="bg-gray-500/60 text-white rounded-full px-3 py-1 text-sm flex items-center space-x-1.5">
-                <img
-                  src="../images/icons/icons8-logo-java-coffee-cup-32.png"
-                  alt="Java"
-                  className="w-5 h-5"
-                />
-                <span>Java</span>
-              </span>
+              <Tag text={"Java"} />
             </div>
           </div>
         </div>
@@ -75,46 +69,11 @@ export default function Projects() {
 
             {/* tags */}
             <div className="flex flex-wrap justify-start mt-5 font-archivo gap-2 select-none">
-              <span className="bg-gray-500/60 text-white rounded-full px-3 py-1 text-sm flex items-center space-x-1.5">
-                <img
-                  src="../images/icons/icons8-html-5-32.png"
-                  alt="Java"
-                  className="w-5 h-5"
-                />
-                <span>HTML</span>
-              </span>
-              <span className="bg-gray-500/60 text-white rounded-full px-3 py-1 text-sm flex items-center space-x-1.5">
-                <img
-                  src="../images/icons/icons8-css3-32.png"
-                  alt="Java"
-                  className="w-5 h-5"
-                />
-                <span>CSS</span>
-              </span>
-              <span className="bg-gray-500/60 text-white rounded-full px-3 py-1 text-sm flex items-center space-x-1.5">
-                <img
-                  src="../images/icons/icons8-php-32.png"
-                  alt="Java"
-                  className="w-5 h-5"
-                />
-                <span>PHP</span>
-              </span>
-              <span className="bg-gray-500/60 text-white rounded-full px-3 py-1 text-sm flex items-center space-x-1.5">
-                <img
-                  src="../images/icons/icons8-postgresql-32.png"
-                  alt="Java"
-                  className="w-5 h-5"
-                />
-                <span>PostgreSQL</span>
-              </span>
-              <span className="bg-gray-500/60 text-white rounded-full px-3 py-1 text-sm flex items-center space-x-1.5">
-                <img
-                  src="../images/icons/icons8-figma-32.png"
-                  alt="Java"
-                  className="w-5 h-5"
-                />
-                <span>Figma</span>
-              </span>
+              <Tag text="HTML" />
+              <Tag text="CSS" />
+              <Tag text="PHP" />
+              <Tag text="PostgreSQL" />
+              <Tag text="Figma" />
             </div>
           </div>
         </div>
@@ -147,46 +106,11 @@ export default function Projects() {
             </p>
             {/* tags */}
             <div className="flex flex-wrap justify-start mt-5 font-archivo gap-2 select-none">
-              <span className="bg-gray-500/60 text-white rounded-full px-3 py-1 text-sm flex items-center space-x-1.5">
-                <img
-                  src="../images/icons/icons8-html-5-32.png"
-                  alt="HTML"
-                  className="w-5 h-5"
-                />
-                <span>HTML</span>
-              </span>
-              <span className="bg-gray-500/60 text-white rounded-full px-3 py-1 text-sm flex items-center space-x-1.5">
-                <img
-                  src="../images/icons/icons8-css3-32.png"
-                  alt="CSS"
-                  className="w-5 h-5"
-                />
-                <span>CSS</span>
-              </span>
-              <span className="bg-gray-500/60 text-white rounded-full px-3 py-1 text-sm flex items-center space-x-1.5">
-                <img
-                  src="../images/icons/icons8-php-32.png"
-                  alt="PHP"
-                  className="w-5 h-5"
-                />
-                <span>PHP</span>
-              </span>
-              <span className="bg-gray-500/60 text-white rounded-full px-3 py-1 text-sm flex items-center space-x-1.5">
-                <img
-                  src="../images/icons/icons8-postgresql-32.png"
-                  alt="PostgreSQL"
-                  className="w-5 h-5"
-                />
-                <span>PostgreSQL</span>
-              </span>
-              <span className="bg-gray-500/60 text-white rounded-full px-3 py-1 text-sm flex items-center space-x-1.5">
-                <img
-                  src="../images/icons/icons8-figma-32.png"
-                  alt="Figma"
-                  className="w-5 h-5"
-                />
-                <span>Figma</span>
-              </span>
+              <Tag text="HTML" />
+              <Tag text="CSS" />
+              <Tag text="PHP" />
+              <Tag text="PostgreSQL" />
+              <Tag text="Figma" />
             </div>
           </div>
         </div>
@@ -217,14 +141,7 @@ export default function Projects() {
             </p>
             {/* tags */}
             <div className="flex flex-wrap justify-start mt-5 font-archivo gap-2 select-none">
-              <span className="bg-gray-500/60 text-white rounded-full px-3 py-1 text-sm flex items-center space-x-1.5">
-                <img
-                  src="../images/icons/icons8-python-32.png"
-                  alt="Python"
-                  className="w-5 h-5"
-                />
-                <span>Python</span>
-              </span>
+              <Tag text="Python" />
             </div>
           </div>
         </div>
