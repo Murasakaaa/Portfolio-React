@@ -1,17 +1,17 @@
 import { Link } from "react-router-dom";
 import Tag from "../../components/shared/tags";
 
-interface Competence {
+export interface Competence {
   id: string;
   title: string;
-  acquired: "acquis" | "en cours" | "non acquis" | "";
+  acquired: string;
   description: string;
   practice: string;
   projectLink?: string;
   projectLabel?: string;
 }
 
-interface SkillData {
+export interface SkillData {
   title: string;
   intro: string;
   situationsPro: string[];
