@@ -12,6 +12,7 @@ import Yams from "./pages/projectsPage/projects/Yams";
 import Unesco from "./pages/projectsPage/projects/Unesco";
 import SkillPage from "./pages/skillsPage/Skillpage";
 import skillsData from "./data/skills.json";
+import ScrollToTop from "./components/ScrollToTop";
 
 // Composant séparé car useLocation doit être DANS BrowserRouter
 function Layout() {
@@ -27,6 +28,7 @@ function Layout() {
     "/administrer",
     "/gerer",
     "/conduire",
+    "/collaborer",
   ];
 
   // Permet de ne pas afficher la Navbar sur certaines pages
@@ -78,6 +80,7 @@ function Layout() {
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Layout />
     </BrowserRouter>
   );

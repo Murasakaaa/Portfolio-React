@@ -133,17 +133,6 @@ export default function Yams() {
         <p className="pt-2 text-[0.6875rem] max-sm:text-[0.5625rem]">
           Jeu de Yahtzee (ou Yam's) en Java
         </p>
-        <p className="pt-2 text-[0.6875rem] max-sm:text-[0.5625rem]">
-          Icons by{" "}
-          <a
-            target="_blank"
-            href="https://icones8.fr/icons"
-            rel="noreferrer"
-            className="underline hover:text-green-700"
-          >
-            Icons8
-          </a>
-        </p>
       </footer>
     </>
   );

@@ -4,6 +4,7 @@ import Tag from "../../components/shared/tags";
 interface Competence {
   id: string;
   title: string;
+  acquired: "acquis" | "en cours" | "non acquis" | "";
   description: string;
   practice: string;
   projectLink?: string;
@@ -22,6 +23,12 @@ interface SkillData {
 interface SkillPageProps {
   skillData: SkillData;
 }
+
+const acquiredStyles: Record<string, string> = {
+  acquis: "bg-green-800 text-white",
+  "en cours": "bg-orange-500 text-white",
+  "non acquis": "bg-red-500 text-white",
+};
 
 export default function SkillPage({ skillData }: SkillPageProps) {
   return (
@@ -84,7 +91,7 @@ export default function SkillPage({ skillData }: SkillPageProps) {
 
       {/* ── Explication de la compétence ── */}
       <section className="py-12">
-        <h2 className="font-schabo text-7xl uppercase mb-10 pb-4 border-black max-sm:text-6xl max-sm:mb-0 ">
+        <h2 className="font-schabo text-7xl uppercase mb-10 pb-4 border-black max-sm:text-6xl max-sm:mb-0">
           Explication de la compétence
         </h2>
 
@@ -94,15 +101,20 @@ export default function SkillPage({ skillData }: SkillPageProps) {
               key={ac.id}
               className="border-b border-black py-8 grid grid-cols-1 md:grid-cols-[180px_1fr] gap-6"
             >
-              {/* ID + numéro */}
+              {/* ID + titre + statut */}
               <div className="shrink-0">
                 <span className="inline-block border-2 border-black px-3 py-1 text-base font-archivo font-bold uppercase">
                   {ac.id}
                 </span>
                 {ac.title && (
-                  <p className="mt-2 text-sm text-gray-500 leading-snug">
-                    {ac.title}
-                  </p>
+                  <p className="mt-2 text-sm text-gray-500">{ac.title}</p>
+                )}
+                {ac.acquired && (
+                  <span
+                    className={`mt-3 inline-block px-2 py-0.5 text-xs font-bold uppercase ${acquiredStyles[ac.acquired] ?? ""}`}
+                  >
+                    {ac.acquired}
+                  </span>
                 )}
               </div>
 

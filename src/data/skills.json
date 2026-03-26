@@ -28,6 +28,7 @@
       {
         "id": "AC21.01",
         "title": "Spécifications fonctionnelles et non fonctionnelles",
+        "acquired": "acquis",
         "description": "À partir d'un sujet contenant diverses exigences, je suis capable de les analyser et de les formaliser sous forme de spécifications fonctionnelles (ex : une page de connexion) et non fonctionnelles (ex : sécurité avec un mot de passe haché).",
         "practice": "Dans le projet Bricksy, le sujet portait sur un site e-commerce de tableaux en briques Lego, mais ne définissait pas explicitement les besoins côté base de données. J'ai su lire entre les lignes pour identifier ces besoins implicites et les formaliser moi-même : stockage des comptes clients, gestion des commandes, immuabilité de certaines tables, etc.",
         "projectLink": "/projets/bricksy",
@@ -36,24 +37,27 @@
       {
         "id": "AC21.02",
         "title": "Ergonomie et accessibilité",
-        "description": "",
-        "practice": "",
+        "acquired": "en cours",
+        "description": "Lorsque je dois réaliser un site web ou une application, je passe toujours par la case réalisation du design. Pendant cette tâche, je pense toujours à l'ergonomie et à l'accessibilité de mon projet. Pour cela, j'effectue différentes choses comme du benchmarking en observant ce que d'autres sites du même domaine proposent ou alors je fais attention à certains détails qui pourraient poser des difficultés pour les personnes en situation de handicap (choix des couleurs, contraste des couleurs, etc). Je fais aussi attention à l'ergonomie : je me demande si telle action est rapidement accessible (en 3 clics) ou non. Je pense au public de mon projet afin d'adapter ce dernier.",
+        "practice": "J'ai pu acquérir toutes ces connaissances en suivant notamment les cours de Développement d'applications avec IHM (Interaction Humain Machine), dans lesquels j'ai vu les différents problèmes liés à un manque de réflexion sur l'ergonomie et l'accessibilité. Cependant, côté accessibilité, je pense qu'il me manque encore des connaissances au-delà du choix et du contraste des couleurs.",
         "projectLink": "",
         "projectLabel": ""
       },
       {
         "id": "AC21.03",
         "title": "Bonnes pratiques de conception et de programmation",
-        "description": "",
-        "practice": "",
-        "projectLink": "/projets/bricksy",
-        "projectLabel": "Voir le projet Bricksy"
+        "acquired": "acquis",
+        "description": "Avant le développement d'un projet, je réalise une maquette de ce que je vais développer. Cela permet d'avoir du recul et de savoir quoi faire plutôt que de développer à la volée. Pendant le développement, je pense toujours à produire du code propre. Que ce soit pour des projets en équipe ou seul, je n'omets pas d'écrire des commentaires utiles aux endroits les plus importants afin de faciliter la compréhension pour un membre de l'équipe ou lors d'une reprise du code.",
+        "practice": "Dans le projet Unesco, j'ai eu l'occasion de travailler avec 3 autres personnes. Nous avons tout d'abord effectué plusieurs maquettes du site afin d'être sûrs de savoir quoi développer. Étant donné que tout le monde devait coder, nous avons fait attention à bien nommer les classes dans le code afin que les autres membres du groupe puissent savoir quoi modifier si nécessaire.",
+        "projectLink": "/projets/unesco",
+        "projectLabel": "Voir le projet Unesco"
       },
       {
         "id": "AC21.04",
         "title": "Validation du code par les tests",
-        "description": "",
-        "practice": "",
+        "acquired": "en cours",
+        "description": "Pendant le développement de mes projets, je réalise différents tests afin de garantir le bon fonctionnement de mon code. J'inscris ces tests dans un cahier de tests dans lequel on retrouve les scénarios de tests ainsi que le tableau d'itération. Si un test est raté, je le note, je corrige le ou les problèmes et j'ajoute une ligne dans le tableau à chaque nouveau test.",
+        "practice": "J'ai pu apprendre cela dans le cours de Qualité de Développement dans lequel j'ai vu comment rédiger des cahiers de tests. J'ai aussi pu utiliser JUnit dans le cours de Java. Cependant, je ne pense pas avoir assez pratiqué la création de tests unitaires complets et je pense pouvoir encore progresser en pratiquant cela dans mes prochains projets.",
         "projectLink": "",
         "projectLabel": ""
       }
@@ -64,7 +68,7 @@
     "intro": "Proposer des applications informatiques performantes en analysant le temps d'exécution, la précision et la consommation de ressources.",
     "situationsPro": [
       "Améliorer les performances des programmes dans des contextes contraints",
-      "Limiter l’impact environnemental d’une application informatique",
+      "Limiter l'impact environnemental d'une application informatique",
       "Mettre en place des applications informatiques adaptées et efficaces"
     ],
     "techSkills": [
@@ -80,33 +84,36 @@
     "competences": [
       {
         "id": "AC22.01",
-        "title": "",
-        "description": "",
+        "title": "Concevoir des solutions algorithmiques efficaces",
+        "acquired": "en cours",
+        "description": "Lorsque je réfléchis à un algorithme, je pense à quelle structure de données est la plus adéquate. Selon les algorithmes, certaines structures feront que le programme prendra plus de temps à s'exécuter. Toutes les structures sont en général possibles mais ne sont pas forcément les meilleures. Je comprends les enjeux et les méthodes pour y arriver mais je pense ne pas être encore totalement au point sur ce sujet. Parfois mes choix de structures ne sont pas les meilleurs car je vais au plus simple, ce qui n'est pas toujours le bon choix.",
         "practice": "",
         "projectLink": "",
         "projectLabel": ""
-      }
-    ]
-  },
-  "collaborer": {
-    "title": "Collaborer",
-    "intro": "Travailler efficacement en équipe pour réaliser des projets informatiques complexes.",
-    "situationsPro": [
-      "Lancer un nouveau projet",
-      "Organiser son travail en relation avec celui de son équipe",
-      "Élaborer, gérer et transmettre de l’information"
-    ],
-    "techSkills": ["Git", "GitHub", "Trello", "Discord"],
-    "methodSkills": [
-      "Méthode Agile / Scrum",
-      "Réalisation de tableaux Kanban",
-      "Documentation collaborative"
-    ],
-    "competences": [
+      },
       {
-        "id": "AC25.01",
-        "title": "",
-        "description": "",
+        "id": "AC22.02",
+        "title": "Appréhender les limites d'un algorithme",
+        "acquired": "en cours",
+        "description": "Je comprends quand une approche naïve à un algorithme est lente ou inefficace. Je connais aussi les différentes méthodes d'optimisation afin d'avoir un code plus efficace. Cependant, je ne pense pas avoir totalement acquis le réflexe d'utiliser ces méthodes de manière systématique.",
+        "practice": "",
+        "projectLink": "",
+        "projectLabel": ""
+      },
+      {
+        "id": "AC22.03",
+        "title": "Mesurer et comparer les performances de différentes solutions",
+        "acquired": "en cours",
+        "description": "Lors du développement d'un algorithme, je suis capable d'analyser et de comparer ses performances selon différentes approches. Je sais évaluer la complexité temporelle d'une solution (O(n), O(log n), etc.) afin de choisir l'implémentation la plus efficace selon le contexte. Cependant je ne m'estime pas encore assez à l'aise avec cela.",
+        "practice": "Dans le cours de Graphes, j'ai pu comparer différentes implémentations du calcul de la suite de Fibonacci. Chaque approche donnait le même résultat mais avec des complexités très différentes : une version naïve récursive, une version itérative et une version avec mémoïsation. Cet exercice m'a permis de comprendre concrètement l'impact du choix algorithmique sur les performances d'un programme.",
+        "projectLink": "/projets/bricksy",
+        "projectLabel": "Voir le projet Bricksy"
+      },
+      {
+        "id": "AC22.04",
+        "title": "Évaluer l'impact environnemental et sociétal des solutions proposées",
+        "acquired": "non acquis",
+        "description": "Je suis conscient de l'impact environnemental et sociétal de projets informatiques mais je ne les ai pas encore appliqués à mes projets. Il faudra notamment faire en sorte que les images prennent le moins d'espace de stockage possible afin de limiter l'usage du stockage et de faire charger les sites web plus vite. Je connais ces bonnes pratiques et il ne me manque plus que de les intégrer systématiquement dans mes développements.",
         "practice": "",
         "projectLink": "",
         "projectLabel": ""
@@ -121,17 +128,47 @@
       "Améliorer une infrastructure existante",
       "Sécuriser les applications et les services"
     ],
-    "techSkills": ["Linux", "Apache", "MySQL", "SSH"],
+    "techSkills": [
+      "Linux",
+      "Apache",
+      "MySQL",
+      "SSH",
+      "Docker",
+      "Netkit",
+      "VPN",
+      "Proxy",
+      "Pare-feu",
+      "NAT"
+    ],
     "methodSkills": [
-      "Déployer une nouvelle architecture technique",
-      "Améliorer une infrastructure existante",
-      "Sécuriser les applications et les services"
+      "Sécuriser les applications et les services",
+      "Utiliser des machines virtuelles",
+      "Gestion des droits"
     ],
     "competences": [
       {
-        "id": "AC23.01",
-        "title": "",
-        "description": "",
+        "id": "AC24.01",
+        "title": "Concevoir et développer des applications communicantes",
+        "acquired": "en cours",
+        "description": "Quand je développe un site web avec une base de données, je fais attention à la connexion entre les deux pour que les données transitent correctement. Je fais en sorte de gérer les erreurs pour que l'utilisateur ne soit pas perturbé pendant sa navigation. Cependant je ne connais pas encore trop bien les websocket avec NodeJS. Je pense que j'ai encore des chose à apprendre avant que cela soit acquis.",
+        "practice": "",
+        "projectLink": "",
+        "projectLabel": ""
+      },
+      {
+        "id": "AC24.02",
+        "title": "Utiliser des serveurs et des services réseaux virtualisés",
+        "acquired": "acquis",
+        "description": "J'ai pu utiliser Netkit pour simuler des machines qui communiquent entre elles en travaux pratiques. J'ai aussi eu l'occasion de travailler avec Docker pendant le développement de certains projets afin que mon équipe ait le même environnement de développement. Par exemple, pour les projets utilisant du PHP, nous avons mis en place un fichier docker-compose afin d'éviter les problèmes de version entre les membres de l'équipe.",
+        "practice": "",
+        "projectLink": "",
+        "projectLabel": ""
+      },
+      {
+        "id": "AC24.03",
+        "title": "Sécuriser les services et données d'un système",
+        "acquired": "en cours",
+        "description": "J'ai pu voir pendant les travaux pratiques la mise en place de Proxy, VPN, NAT, certificats et pare-feu. Grâce aux cours et aux travaux pratiques, j'ai pu découvrir l'importance de ces services pour protéger nos données sur internet. Cependant, je n'ai pas encore eu l'occasion de les mettre en place en situation réelle.",
         "practice": "",
         "projectLink": "",
         "projectLabel": ""
@@ -142,24 +179,52 @@
     "title": "Gérer",
     "intro": "Concevoir et exploiter les données de l'entreprise pour permettre un pilotage efficace de l'activité.",
     "situationsPro": [
-      "Concevoir un schéma de base de données",
-      "Exploiter les données via des requêtes",
-      "Assurer l'intégrité et la sécurité des données"
-    ],
-    "techSkills": ["SQL", "MySQL", "PostgreSQL", "MongoDB"],
-    "methodSkills": [
       "Lancer un nouveau projet",
       "Sécuriser des données",
       "Exploiter des données pour la prise de décisions"
     ],
+    "techSkills": ["SQL", "MySQL", "PostgreSQL", "NoSQL", "MongoDB"],
+    "methodSkills": [
+      "Modélisation entité-relation",
+      "Normalisation",
+      "Optimisation des requêtes"
+    ],
     "competences": [
       {
         "id": "AC24.01",
-        "title": "",
-        "description": "",
+        "title": "Optimiser les modèles de données de l'entreprise",
+        "acquired": "acquis",
+        "description": "Avant de créer une base de données, je commence par isoler les différents éléments que je vais mettre dedans. Par exemple, si un client veut gérer des factures, je réfléchis à la distinction entre l'entité 'Client', 'Facture' et 'Produit' pour que la base reflète fidèlement la réalité de l'entreprise. Pour cela, je passe par la réalisation d'un MCD (Modèle Conceptuel de Données) afin de bien visualiser les entités et leur contenu. Je réfléchis aussi aux meilleurs types de données (numérique, texte, etc.) pour éviter des problèmes lors de leur exploitation.",
         "practice": "",
         "projectLink": "",
         "projectLabel": ""
+      },
+      {
+        "id": "AC24.02",
+        "title": "Assurer la sécurité des données (intégrité et confidentialité)",
+        "acquired": "acquis",
+        "description": "Au cours de ma formation, j'ai appris à chiffrer certaines informations comme les mots de passe. J'ai aussi appris le concept d'immuabilité afin que les données censées être fixes ne soient pas modifiées dans la base de données. Je fais également attention à protéger ma base de données des injections SQL.",
+        "practice": "J'ai pu mettre cela en place avec des triggers MySQL, ce qui permettait de bloquer des actions non autorisées (suppression et modification) sur des données sensibles.",
+        "projectLink": "",
+        "projectLabel": ""
+      },
+      {
+        "id": "AC24.03",
+        "title": "Organiser la restitution de données à travers la programmation et la visualisation",
+        "acquired": "acquis",
+        "description": "Je sais utiliser des langages comme PHP pour interroger une base de données de manière sécurisée et dynamique. Je conçois des interfaces qui mettent en valeur les informations récupérées : je ne me contente pas d'afficher des tableaux bruts. Je réalise une interface propre et compréhensible pour l'utilisateur final, en indiquant notamment les unités pour les données numériques afin de ne pas induire en erreur.",
+        "practice": "",
+        "projectLink": "",
+        "projectLabel": ""
+      },
+      {
+        "id": "AC24.04",
+        "title": "Manipuler des données hétérogènes",
+        "acquired": "acquis",
+        "description": "Pour les projets web, j'ai dû récupérer différentes données (nom, prénom, horaires de trains, etc.) afin de les afficher à l'utilisateur. Cela m'a demandé de les récupérer puis de les manipuler dans le code pour obtenir un affichage final correct.",
+        "practice": "J'ai pu mettre cela en pratique avec les projets Monetix (portail web et entrepôt de données pour la gestion de paiement par cartes bancaires) et LouisTrain (plateforme de réservation de billets de train), dans lesquels j'ai manipulé diverses données hétérogènes pour les restituer. Pour LouisTrain, je devais notamment afficher tous les trajets disponibles avec leurs horaires.",
+        "projectLink": "/projets/louistrain",
+        "projectLabel": "Voir le projet LouisTrain"
       }
     ]
   },
@@ -168,8 +233,8 @@
     "intro": "Organiser et piloter un projet informatique en utilisant des méthodes classiques ou agiles pour satisfaire les utilisateurs.",
     "situationsPro": [
       "Lancer un nouveau projet",
-      "Piloter le maintien d’un projet en condition opérationnelle",
-      "Faire évoluer un système d’information"
+      "Piloter le maintien d'un projet en condition opérationnelle",
+      "Faire évoluer un système d'information"
     ],
     "techSkills": ["Jira", "Trello", "GitHub Projects"],
     "methodSkills": [
@@ -181,9 +246,90 @@
     ],
     "competences": [
       {
+        "id": "AC25.01",
+        "title": "Identifier les processus présents dans une organisation",
+        "acquired": "acquis",
+        "description": "Avant de coder, je cherche à comprendre le type de client et son contexte. Je sais identifier les différents flux d'informations qui seront présents pour savoir ce que j'aurai à faire. L'objectif est que le système d'information que je développe soit réellement adapté au client.",
+        "practice": "",
+        "projectLink": "",
+        "projectLabel": ""
+      },
+      {
+        "id": "AC25.02",
+        "title": "Formaliser les besoins du client et de l'utilisateur",
+        "acquired": "acquis",
+        "description": "Je suis capable de traduire les besoins du client et de l'utilisateur en product backlog contenant des user stories au format : \"En tant que… je souhaite…\". Cela permet un bon déroulement du développement en donnant une vision claire des fonctionnalités à implémenter.",
+        "practice": "",
+        "projectLink": "",
+        "projectLabel": ""
+      },
+      {
+        "id": "AC25.03",
+        "title": "Identifier les critères de faisabilité d'un projet informatique",
+        "acquired": "acquis",
+        "description": "En fonction de ce que j'ai à réaliser sur un projet, je sais prioriser les tâches. Si le projet est en retard, je sais identifier les tâches les plus importantes pour avoir un résultat correct à la fin.",
+        "practice": "Dans le projet LouisTrain, je voulais rajouter le choix des places dans le train. Cependant, le projet ayant pris du retard, j'ai su retirer cette fonctionnalité car je la considérais infaisable dans les délais impartis.",
+        "projectLink": "/projets/louistrain",
+        "projectLabel": "Voir le projet LouisTrain"
+      },
+      {
+        "id": "AC25.04",
+        "title": "Définir et mettre en œuvre une démarche de suivi de projet",
+        "acquired": "acquis",
+        "description": "Lorsque je démarre un projet, je mets en place divers outils et méthodes afin d'assurer le suivi. Je mets en place une méthodologie agile pour séparer le projet en sprints, un tableau Kanban que je mets à jour régulièrement, et j'organise des réunions pendant les sprints pour suivre l'avancement. Cette démarche me permet d'avoir un suivi de projet efficace.",
+        "practice": "",
+        "projectLink": "",
+        "projectLabel": ""
+      }
+    ]
+  },
+  "collaborer": {
+    "title": "Collaborer",
+    "intro": "Travailler efficacement en équipe pour réaliser des projets informatiques complexes.",
+    "situationsPro": [
+      "Lancer un nouveau projet",
+      "Organiser son travail en relation avec celui de son équipe",
+      "Élaborer, gérer et transmettre de l'information"
+    ],
+    "techSkills": ["Git", "GitHub", "Trello", "Discord"],
+    "methodSkills": [
+      "Méthode Agile / Scrum",
+      "Réalisation de tableaux Kanban",
+      "Documentation collaborative"
+    ],
+    "competences": [
+      {
         "id": "AC26.01",
-        "title": "",
-        "description": "",
+        "title": "Comprendre la diversité, la structure et la dimension de l'informatique dans une organisation",
+        "acquired": "en cours",
+        "description": "Je n'ai encore jamais travaillé dans une organisation telle qu'une ESN ou une DSI. Cependant, j'ai pu avoir un aperçu de ce à quoi cela ressemble avec le cours de Management des systèmes d'informations, dans lequel j'ai vu diverses choses concernant la DSI (importance dans l'entreprise, objectifs). Cette compétence est encore en cours d'acquisition.",
+        "practice": "",
+        "projectLink": "",
+        "projectLabel": ""
+      },
+      {
+        "id": "AC26.02",
+        "title": "Appliquer une démarche pour intégrer une équipe informatique au sein d'une organisation",
+        "acquired": "en cours",
+        "description": "Lorsque je rejoins un groupe, je m’adapte rapidement aux outils et à l’organisation qu’il utilise. L’outil le plus populaire est Git avec Github que je connais. Sur les outils de gestion de projets comme Trello (Kanban) je mets bien à jour ce que je fais. Cependant, comme précédemment dit, je n’ai pas encore eu d’expérience en entreprise.",
+        "practice": "",
+        "projectLink": "",
+        "projectLabel": ""
+      },
+      {
+        "id": "AC26.03",
+        "title": "Mobiliser les compétences interpersonnelles pour travailler dans une équipe informatique",
+        "acquired": "acquis",
+        "description": "Pour mes projets réalisés en groupe (4 ou 5 personnes), je n'hésite pas à utiliser des outils de collaboration et de gestion de version pour appliquer des compétences interpersonnelles. Pour la gestion de projet en groupe, j’utilise l’outil Trello qui me permet de faire des tableaux Kanban. J’utilise aussi Google Docs et Sheet pour rédiger de la documentation comme un cahier de tests en collaboration avec les membres de mon groupe. Pour la gestion des versions, j’utilise tout le temps Git avec Github qui me permet de partager mon code avec mon équipe. Enfin pour les réunions et communication dans le groupe, j’utilise discord afin de discuter de l’avancement du projet ou régler des problèmes complexes ensemble. ",
+        "practice": "",
+        "projectLink": "",
+        "projectLabel": ""
+      },
+      {
+        "id": "AC26.04",
+        "title": "Rendre compte de son activité professionnelle",
+        "acquired": "en cours",
+        "description": "À travers tous mes projets universitaires, j'ai dû rendre compte de mon travail. Que ce soit via un CRA (Compte rendu d'activité) ou un dossier de conception technique destiné au professeur, rendre compte d'un travail ne m'est pas étranger. Cependant, je n'ai pas encore pu effectuer cela dans une vraie entreprise, donc cette compétence est encore en cours d'apprentissage.",
         "practice": "",
         "projectLink": "",
         "projectLabel": ""
