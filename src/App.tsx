@@ -22,6 +22,11 @@ function Layout() {
     "/projets/yams",
     "/projets/seniorchat",
     "/projets/unesco",
+    "/realiser",
+    "/optimiser",
+    "/administrer",
+    "/gerer",
+    "/conduire",
   ];
 
   // Permet de ne pas afficher la Navbar sur certaines pages
@@ -40,12 +45,30 @@ function Layout() {
         <Route path="/projets/seniorchat" element={<SeniorChat />} />
         <Route path="/projets/unesco" element={<Unesco />} />
 
-        <Route path="/realiser" element={<SkillPage skillData={skillsData.realiser} />} />
-        <Route path="/optimiser" element={<SkillPage skillData={skillsData.optimiser} />} />
-        <Route path="/collaborer" element={<SkillPage skillData={skillsData.collaborer} />} />
-        <Route path="/administrer" element={<SkillPage skillData={skillsData.administrer} />} />
-        <Route path="/gerer" element={<SkillPage skillData={skillsData.gerer} />} />
-        <Route path="/conduire" element={<SkillPage skillData={skillsData.conduire} />} />
+        <Route
+          path="/realiser"
+          element={<SkillPage skillData={skillsData.realiser} />}
+        />
+        <Route
+          path="/optimiser"
+          element={<SkillPage skillData={skillsData.optimiser} />}
+        />
+        <Route
+          path="/collaborer"
+          element={<SkillPage skillData={skillsData.collaborer} />}
+        />
+        <Route
+          path="/administrer"
+          element={<SkillPage skillData={skillsData.administrer} />}
+        />
+        <Route
+          path="/gerer"
+          element={<SkillPage skillData={skillsData.gerer} />}
+        />
+        <Route
+          path="/conduire"
+          element={<SkillPage skillData={skillsData.conduire} />}
+        />
       </Routes>
       {showNavbar && <Footer />}
     </div>

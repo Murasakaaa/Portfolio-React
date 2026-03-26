@@ -1,62 +1,193 @@
 {
   "realiser": {
     "title": "Réaliser",
-    "description": "Concevoir, coder, tester et intégrer des solutions informatiques pour répondre aux besoins des clients.",
-    "skills": [
-      "Développement frontend",
-      "Développement backend",
-      "Tests unitaires",
-      "Intégration continue"
+    "intro": "Concevoir, coder, tester et intégrer une solution informatique en répondant aux exigences fonctionnelles et non fonctionnelles d'un projet.",
+    "situationsPro": [
+      "Élaborer une application informatique",
+      "Faire évoluer une application informatique",
+      "Maintenir en conditions opérationnelles une application informatique"
+    ],
+    "techSkills": [
+      "Python",
+      "Java",
+      "JavaScript/TypeScript",
+      "React",
+      "Android (Java)",
+      "HTML/CSS",
+      "PHP",
+      "C"
+    ],
+    "methodSkills": [
+      "Lecture et compréhension de cahier des charges",
+      "Utilisation de Git (versionnage)",
+      "Rédaction de documents techniques",
+      "Rédaction de cahier de tests",
+      "Tests unitaires"
+    ],
+    "competences": [
+      {
+        "id": "AC21.01",
+        "title": "Spécifications fonctionnelles et non fonctionnelles",
+        "description": "À partir d'un sujet contenant diverses exigences, je suis capable de les analyser et de les formaliser sous forme de spécifications fonctionnelles (ex : une page de connexion) et non fonctionnelles (ex : sécurité avec un mot de passe haché).",
+        "practice": "Dans le projet Bricksy, le sujet portait sur un site e-commerce de tableaux en briques Lego, mais ne définissait pas explicitement les besoins côté base de données. J'ai su lire entre les lignes pour identifier ces besoins implicites et les formaliser moi-même : stockage des comptes clients, gestion des commandes, immuabilité de certaines tables, etc.",
+        "projectLink": "/projets/bricksy",
+        "projectLabel": "Voir le projet Bricksy"
+      },
+      {
+        "id": "AC21.02",
+        "title": "Ergonomie et accessibilité",
+        "description": "",
+        "practice": "",
+        "projectLink": "",
+        "projectLabel": ""
+      },
+      {
+        "id": "AC21.03",
+        "title": "Bonnes pratiques de conception et de programmation",
+        "description": "",
+        "practice": "",
+        "projectLink": "/projets/bricksy",
+        "projectLabel": "Voir le projet Bricksy"
+      },
+      {
+        "id": "AC21.04",
+        "title": "Validation du code par les tests",
+        "description": "",
+        "practice": "",
+        "projectLink": "",
+        "projectLabel": ""
+      }
     ]
   },
   "optimiser": {
     "title": "Optimiser",
-    "description": "Proposer des applications informatiques performantes en analysant le temps d'exécution, la précision et la consommation de ressources.",
-    "skills": [
-      "Analyse de performance",
-      "Optimisation d'algorithmes",
-      "Gestion de la mémoire",
-      "Profiling d'applications"
+    "intro": "Proposer des applications informatiques performantes en analysant le temps d'exécution, la précision et la consommation de ressources.",
+    "situationsPro": [
+      "Améliorer les performances des programmes dans des contextes contraints",
+      "Limiter l’impact environnemental d’une application informatique",
+      "Mettre en place des applications informatiques adaptées et efficaces"
+    ],
+    "techSkills": [
+      "Arbres (binaire de recherche)",
+      "Listes chaînées",
+      "Dictionnaires (table de hachage)",
+      "Graphes (listes d'adjacence ou matrice d'adjacence)",
+      "Listes classiques",
+      "Récursivité",
+      "Recherche en profondeur et en largeur"
+    ],
+    "methodSkills": ["Analyse de complexité algorithmique"],
+    "competences": [
+      {
+        "id": "AC22.01",
+        "title": "",
+        "description": "",
+        "practice": "",
+        "projectLink": "",
+        "projectLabel": ""
+      }
     ]
   },
   "collaborer": {
     "title": "Collaborer",
-    "description": "Travailler efficacement en équipe pour réaliser des projets informatiques complexes.",
-    "skills": [
-      "Travail en équipe",
-      "Communication",
-      "Partage de connaissance",
-      "Gestion des conflits"
+    "intro": "Travailler efficacement en équipe pour réaliser des projets informatiques complexes.",
+    "situationsPro": [
+      "Lancer un nouveau projet",
+      "Organiser son travail en relation avec celui de son équipe",
+      "Élaborer, gérer et transmettre de l’information"
+    ],
+    "techSkills": ["Git", "GitHub", "Trello", "Discord"],
+    "methodSkills": [
+      "Méthode Agile / Scrum",
+      "Réalisation de tableaux Kanban",
+      "Documentation collaborative"
+    ],
+    "competences": [
+      {
+        "id": "AC25.01",
+        "title": "",
+        "description": "",
+        "practice": "",
+        "projectLink": "",
+        "projectLabel": ""
+      }
     ]
   },
   "administrer": {
     "title": "Administrer",
-    "description": "Installer, configurer et maintenir en conditions opérationnelles les infrastructures, services et réseaux d'une organisation.",
-    "skills": [
-      "Administration système",
-      "Configuration réseau",
-      "Gestion des utilisateurs",
-      "Maintenance infrastructure"
+    "intro": "Installer, configurer et maintenir en conditions opérationnelles les infrastructures, services et réseaux d'une organisation.",
+    "situationsPro": [
+      "Déployer une nouvelle architecture technique",
+      "Améliorer une infrastructure existante",
+      "Sécuriser les applications et les services"
+    ],
+    "techSkills": ["Linux", "Apache", "MySQL", "SSH"],
+    "methodSkills": [
+      "Déployer une nouvelle architecture technique",
+      "Améliorer une infrastructure existante",
+      "Sécuriser les applications et les services"
+    ],
+    "competences": [
+      {
+        "id": "AC23.01",
+        "title": "",
+        "description": "",
+        "practice": "",
+        "projectLink": "",
+        "projectLabel": ""
+      }
     ]
   },
   "gerer": {
     "title": "Gérer",
-    "description": "Concevoir et exploiter les données de l'entreprise pour permettre un pilotage efficace de l'activité.",
-    "skills": [
-      "Gestion de base de données",
-      "Modélisation de données",
-      "Requêtes SQL",
-      "Data analytics"
+    "intro": "Concevoir et exploiter les données de l'entreprise pour permettre un pilotage efficace de l'activité.",
+    "situationsPro": [
+      "Concevoir un schéma de base de données",
+      "Exploiter les données via des requêtes",
+      "Assurer l'intégrité et la sécurité des données"
+    ],
+    "techSkills": ["SQL", "MySQL", "PostgreSQL", "MongoDB"],
+    "methodSkills": [
+      "Lancer un nouveau projet",
+      "Sécuriser des données",
+      "Exploiter des données pour la prise de décisions"
+    ],
+    "competences": [
+      {
+        "id": "AC24.01",
+        "title": "",
+        "description": "",
+        "practice": "",
+        "projectLink": "",
+        "projectLabel": ""
+      }
     ]
   },
   "conduire": {
     "title": "Conduire",
-    "description": "Organiser et piloter un projet informatique en utilisant des méthodes classiques ou agiles pour satisfaire les utilisateurs.",
-    "skills": [
-      "Gestion de projet",
-      "Méthodologie Agile",
-      "Planification",
-      "Suivi de tâches"
+    "intro": "Organiser et piloter un projet informatique en utilisant des méthodes classiques ou agiles pour satisfaire les utilisateurs.",
+    "situationsPro": [
+      "Lancer un nouveau projet",
+      "Piloter le maintien d’un projet en condition opérationnelle",
+      "Faire évoluer un système d’information"
+    ],
+    "techSkills": ["Jira", "Trello", "GitHub Projects"],
+    "methodSkills": [
+      "Product Backlog",
+      "Méthode Agile",
+      "Réalisation d'un diagramme de Gantt",
+      "Réalisation d'un tableau Kanban",
+      "Gestion des risques"
+    ],
+    "competences": [
+      {
+        "id": "AC26.01",
+        "title": "",
+        "description": "",
+        "practice": "",
+        "projectLink": "",
+        "projectLabel": ""
+      }
     ]
   }
 }
