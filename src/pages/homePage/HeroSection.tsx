@@ -77,5 +77,5 @@ const gotoLinkedin = () => {
 };
 
 const getResume = () => {
-  window.open("docs/CV.pdf", "_blank");
+  window.open("docs/Nolann_MAUNIER_CV.pdf", "_blank");
 };
