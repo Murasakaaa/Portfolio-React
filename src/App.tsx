@@ -13,7 +13,7 @@ import Unesco from "./pages/projectsPage/projects/Unesco";
 import SkillPage from "./pages/skillsPage/Skillpage";
 import skillsData from "./data/skills.json";
 import ScrollToTop from "./components/ScrollToTop";
-import { Analytics } from '@vercel/analytics/next';
+import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
 
 // Composant séparé car useLocation doit être DANS BrowserRouter
