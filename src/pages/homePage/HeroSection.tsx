@@ -8,7 +8,7 @@ export const HeroSection = () => {
     <section className="mt-5">
       <div className="grid grid-cols-2 auto-rows-auto gap-2 max-sm:mt-0">
         {/*1st cell with short intro*/}
-        <div className="font-archivo text-rich_black text-3xl text leading-10 max-sm:text-[1rem] max-sm:col-span-2 max-sm:leading-tight">
+        <div className="font-archivo text-rich_black text-3xl text leading-10 max-sm:text-base max-2xl:col-span-2 max-sm:leading-tight max-2xl:text-2xl">
           Étudiant en BUT Informatique, je recherche une alternance ou un stage
           pour mettre mes compétences en pratique, développer mon savoir-faire
           et relever des défis. Mon objectif : devenir Ingénieur en Informatique
@@ -16,7 +16,7 @@ export const HeroSection = () => {
         </div>
 
         {/*2nd cell with download button*/}
-        <div className="row-start-2 font-archivo flex items-center mt-25 max-sm:mt-3">
+        <div className="row-start-2 font-archivo flex items-center mt-25 max-sm:mt-3 max-2xl:mt-25">
           <div
             className="border-2 rounded-[0.313rem] w-fit flex items-center gap-1 px-1 tracking-widest cursor-pointer bg-white hover:bg-black transition-colors duration-300 group max-sm:tracking-normal"
             onClick={getResume}
@@ -33,7 +33,7 @@ export const HeroSection = () => {
         </div>
 
         {/*3rd cell with icons buttons*/}
-        <div className="row-start-2 flex justify-end gap-2 px-3 py-2 mt-25 max-sm:mt-0">
+        <div className="row-start-2 flex justify-end gap-2 px-3 py-2 mt-25 max-sm:mt-0 max-2xl:mt-25">
           <div className="border-2 rounded-[0.313rem] cursor-pointer bg-white hover:bg-black transition-colors duration-300 group">
             <IconBrandGithubFilled
               size="1em"
@@ -55,13 +55,13 @@ export const HeroSection = () => {
         {/*4th cell with big name*/}
         <div
           className="col-span-2 row-start-3
-            font-schabo-x text-[28.11rem] leading-60 mx-auto select-none mt-24 max-sm:text-[15rem] max-sm:leading-49 max-sm:mt-5"
+            font-schabo-x text-[28.11rem] leading-60 mx-auto select-none mt-24 max-sm:text-[15rem] max-sm:leading-49 max-sm:mt-5 max-2xl:text-[20rem] max-2xl:leading-60 max-2xl:mt-10"
         >
           <p>NOLANN MAUNIER</p>
         </div>
 
         {/*5th cell with arrow towards the bottom*/}
-        <div className="col-span-2 row-start-4 flex justify-center my-5">
+        <div className="col-span-2 row-start-4 flex justify-center my-5 max-2xl:my-0 max-2xl:mt-0">
           <IconArrowNarrowDown size={32} />
         </div>
       </div>
