@@ -7,13 +7,24 @@ import TimelineDot from "@mui/lab/TimelineDot";
 import TimelineOppositeContent, {
   timelineOppositeContentClasses,
 } from "@mui/lab/TimelineOppositeContent";
+import { useMediaQuery } from "@mui/material";
 
 function LeftAlignedTimeline() {
+  const isMobile = useMediaQuery("(max-width:768px)");
+
   return (
     <Timeline
       sx={{
         [`& .${timelineOppositeContentClasses.root}`]: {
-          flex: 0.2,
+          flex: isMobile ? 0 : 0.2,
+          display: isMobile ? "none" : "flex",
+          "@media (max-width: 768px)": {
+            flex: 0,
+            display: "none",
+          },
+        },
+        "@media (max-width: 768px)": {
+          padding: 0,
         },
       }}
     >
@@ -25,9 +36,12 @@ function LeftAlignedTimeline() {
           <TimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent>
+        <TimelineContent sx={{ "@media (max-width: 768px)": { paddingX: 1 } }}>
           <div>
-            <h2 className="font-bold font-archivo text-4xl mb-2.5 max-md:text-3xl">
+            <p className="font-archivo text-gray-400 text-sm mb-1 max-md:text-xs md:hidden">
+              Septembre 2024 - Juin 2027
+            </p>
+            <h2 className="font-bold font-archivo text-4xl mb-2.5 max-md:text-2xl">
               BUT Informatique
             </h2>
             <p className="font-archivo text-gray-500 mb-4 w-full text-[1rem] max-md:text-[0.875rem]">
@@ -46,9 +60,12 @@ function LeftAlignedTimeline() {
           <TimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent>
+        <TimelineContent sx={{ "@media (max-width: 768px)": { paddingX: 1 } }}>
           <div>
-            <h2 className="font-archivo font-bold text-4xl mb-2.5 max-md:text-3xl">
+            <p className="font-archivo text-gray-400 text-sm mb-1 max-md:text-xs md:hidden">
+              Juin 2024
+            </p>
+            <h2 className="font-archivo font-bold text-4xl mb-2.5 max-md:text-2xl">
               Cambridge English Certificate
             </h2>
             <p className="font-archivo text-gray-500 mb-4 w-full text-[1rem] max-md:text-[0.875rem]">
@@ -64,9 +81,12 @@ function LeftAlignedTimeline() {
         <TimelineSeparator>
           <TimelineDot />
         </TimelineSeparator>
-        <TimelineContent>
+        <TimelineContent sx={{ "@media (max-width: 768px)": { paddingX: 1 } }}>
           <div>
-            <h2 className="font-archivo font-bold text-4xl mb-2.5 max-md:text-3xl">
+            <p className="font-archivo text-gray-400 text-sm mb-1 max-md:text-xs md:hidden">
+              Septembre 2021 - Juin 2024
+            </p>
+            <h2 className="font-archivo font-bold text-4xl mb-2.5 max-md:text-2xl">
               Baccalauréat général
             </h2>
             <p className="font-archivo text-gray-500 mb-4 w-full text-[1rem] max-md:text-[0.875rem]">
