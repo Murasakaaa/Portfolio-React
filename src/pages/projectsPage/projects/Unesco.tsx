@@ -81,9 +81,6 @@ export default function Unesco() {
         <i>(en cliquant sur le logo ci-dessus)</i> où vous trouverez le{" "}
         <b>code source</b> du projet.
       </p>
-      <p className="text-red-600 font-bold">
-        Pas encore de lien pour le site car le projet est en cours.
-      </p>
     </>
   );
 

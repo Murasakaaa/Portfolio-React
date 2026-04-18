@@ -10,6 +10,8 @@ import Blackjack from "./pages/projectsPage/projects/Blackjack_project";
 import SeniorChat from "./pages/projectsPage/projects/SeniorChat";
 import Yams from "./pages/projectsPage/projects/Yams";
 import Unesco from "./pages/projectsPage/projects/Unesco";
+import LouisTrain from "./pages/projectsPage/projects/LouisTrain";
+import Bricksy from "./pages/projectsPage/projects/Bricksy";
 import SkillPage from "./pages/skillsPage/Skillpage";
 import skillsData from "./data/skills.json";
 import ScrollToTop from "./components/ScrollToTop";
@@ -25,6 +27,8 @@ function Layout() {
     "/projets/yams",
     "/projets/seniorchat",
     "/projets/unesco",
+    "/projets/louistrain",
+    "/projets/bricksy",
     "/realiser",
     "/optimiser",
     "/administrer",
@@ -48,6 +52,8 @@ function Layout() {
         <Route path="/projets/yams" element={<Yams />} />
         <Route path="/projets/seniorchat" element={<SeniorChat />} />
         <Route path="/projets/unesco" element={<Unesco />} />
+        <Route path="/projets/louistrain" element={<LouisTrain />} />
+        <Route path="/projets/bricksy" element={<Bricksy />} />
 
         <Route
           path="/realiser"
